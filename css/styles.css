@@ -20,7 +20,37 @@ li {
 	font-weight:300;
 	display: block;
 	
+	
 }
+
+/*button styling*/
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color: white;
+	padding: 300px:
+}
+
+
+#work {
+	background: url("../img/work.jpg");
+	height: 800px;
+	width: 300px;
+}
+
+#about {
+	background: url("../img/about.jpg");
+	height: 800px;
+	width: 300px;
+}
+
+#contact {
+	background: url("../img/contact.jpg");
+	height: 800px;
+	width: 300px;
+}
+	
 	
 
 
