@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#toplogo, #bottomlogo {
+	margin-top: 15px;
+}
+
+/* NAV Styling */
+
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	margin-top: 25px;
+		
+}
+
+li {
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	display: block;
+	
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showgrid {
+	background: url("../img/12-col-grid.gif") !important;
+}
