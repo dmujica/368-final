@@ -1,26 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#toplogo, #bottomlogo {
-	margin-top: 15px;
+#bottomlogo {
+	padding: 30px 0 0 0;
 }
 
 /* NAV Styling */
 
-
 h2 {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
-	margin-top: 25px;
-		
+	padding: 27px 0 0 0;		
 }
 
 li {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
-	display: block;
-	
-	
+	display: block;	
 }
 
 /*button styling*/
@@ -28,7 +24,6 @@ li {
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight:300;
-	padding: 300px:
 }
 
 a:hover {
@@ -38,15 +33,39 @@ a:hover {
 nav li{
 	float: left;
 	list-style: none;
-	margin: 20px 10px 0 10px;
+	padding: 35px 0 0 0;
 	font-size: 20px;
-	
 }
 
 nav a{
 	padding: 10px 10px 10px 40px;
 	text-decoration: none;
 }
+
+section {
+	position: relative;
+	z-index:1;	
+}
+
+section h1 {
+	position: absolute;
+	top: 400px;
+	left: 105px;
+	z-index:2;	
+}
+
+h1 + a img:hover {
+    opacity: .5; 
+}
+
+h1 + a img {
+	padding: 50px 0 0 0;
+	opacity: .3;
+	}
+
+/*sidebar styling*/
+
+
 
 
 
