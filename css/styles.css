@@ -32,10 +32,15 @@ article {
 	width: 100%; /*960px*/
 	padding: 0;
 }
+header {
+	width: 100%; /*960px*/
+	padding: 30px 0 0 0;
+}
 
 aside {
 	height: 300px;
 	width: 96%;
+	padding: 30px 0 0 60px;
 }
 img {
 	width:100%;
@@ -58,17 +63,20 @@ footer {
 h1 {
 	font-family: 'bodonixtregular', serif;
 	font-size: 24px;
+	color: rgba(99,105,105, 1);
 }
 
 li {
 	font-family: 'bodonixtregular', serif;
 	display: block;
 	font-size: 24px;
+	color: rgba(99,105,105, 1);
 }
 
 a {
 	font-family: 'bodonixtregular', serif;
 	text-decoration: none;
+	color: rgba(99,105,105, 1);
 }
 
 
@@ -80,22 +88,22 @@ a {
 nav li {
 	color: #000;
 	float: right;
-	padding: 30px 10px 10px 10px;
+	padding: 30px 20px 10px 20px;
 	}
 nav li:nth-child(1) {
 	border: solid 3px #999;
 	float: left;
 	font-size: 32px;
-	margin: 20px 0 30px 30px;
+	margin: 20px 0 30px 50px;
 	padding: 5px;	
 }
 
 nav li:nth-child(2) {
-	padding: 30px 30px 10px 10px;
+	padding: 30px 50px 10px 20px;
 }
 
 a:link {
-  color: #CCC;
+  color: rgba(99,105,105, 1);
 }
 
 a:visited {
@@ -111,6 +119,10 @@ a:hover {
 color: black;
 }
 
+nav li:nth-child(1):hover{
+	border: solid 3px black;	
+}
+
 a:active {
   background: white;
 }
@@ -118,19 +130,60 @@ a:active {
 ul {
 	padding: 0;
 }
+
 /*==============================
-	article
+	header
+==============================*/
+header h1 {
+	text-align: center;
+	bottom-border: solid 3px rgba(99,105,105, 1);
+}
+/*==============================
+	aside
 ==============================*/
 
 
+aside li{
+	float:left;
+	width: 212px;
+	height: 196px;
+	padding: 0 30px 0 30px;	
+}
+
+
+
 
 /*==============================
-	bottom
+	footer
 ==============================*/
 
 footer {
-	background: #666;
+	background: rgba(99,105,105, 1);
 }
+
+footer h1{
+	color:white;
+	text-align:center;
+	padding: 50px 0 50px 0;
+}
+
+
+footer img{
+	width: 60%;
+	padding: 15px 15px;
+	border: solid 3px white;
+}
+
+footer li{
+	width: 100px;
+	padding: 0 50px 0 50px ;
+	float: left;
+}
+
+footer ul{
+	padding: 0 0 0 300px;
+}
+
 
 /*=============
  large desktop
