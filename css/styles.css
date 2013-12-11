@@ -58,7 +58,7 @@ header {
 
 aside {
 	width: 96%;
-	padding: 30px 0 30px 250px;
+	padding: 30px 0 30px 0;
 }
 img {
 	width:100%;
@@ -117,14 +117,17 @@ p {
 nav li {
 	color: #000;
 	float: right;
-	padding: 30px 20px 10px 20px;
+	padding: 30px 20px 50px 20px;
 	}
+	
 nav li:nth-child(1) {
-	border: solid 3px #999;
 	float: left;
-	font-size: 2em; /*32px/16px=2em*/
-	margin: 20px 0 30px 50px;
-	padding: 5px;	
+	font-size: 2em; /*32px/16px=2em*/	
+}
+
+nav li:nth-child(1) a{
+	border: solid 3px #999;
+	padding: 5px;
 }
 
 nav li:nth-child(2) {
@@ -148,7 +151,7 @@ a:hover {
 color: black;
 }
 
-nav li:nth-child(1):hover{
+nav li:nth-child(1):hover a{
 	border: solid 3px black;	
 }
 
@@ -156,9 +159,6 @@ a:active {
   background: white;
 }
 
-ul {
-	padding: 0;
-}
 
 /*==============================
 	header
@@ -315,12 +315,13 @@ aside:after {
 
 footer {
 	background: rgba(99,105,105, 1);
-	padding: 0 0 30px 215px;
+	padding: 0 0 30px 0;
 }
 
 footer h1{
 	color:white;
-	padding: 50px 0 50px 445px;
+	text-align: center;
+	padding: 50px 0 50px 0;
 	font-size: 48px;
 }
 
@@ -354,13 +355,13 @@ footer:after {
 	aside
 ==============================*/
 aside ul {
-	padding: 0 0 0 50px;
+	padding: 0 0 0 235px;
 }
 /*==============================
 	footer
 ==============================*/
 footer ul {
-	padding: 0 0 0 300px;
+	padding: 0 0 0 275px;
 }
  }
  
@@ -385,7 +386,7 @@ aside li {
 	footer
 ==============================*/
 footer ul {
-	padding: 0 0 0 75px;
+	padding: 0 0 0 0;
 }
  }
  
