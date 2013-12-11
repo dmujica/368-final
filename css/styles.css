@@ -218,7 +218,11 @@ input[type="text"]:enabled {
 /*==============================
 	work article
 ==============================*/
- 
+ .gallery{
+	 background: #CCC;
+	 height: 900px;
+	 
+	 }
  .gallery ul{
 	 padding: 0 0 0 200px;
  }
