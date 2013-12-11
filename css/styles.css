@@ -322,7 +322,7 @@ footer h1{
 	color:white;
 	text-align: center;
 	padding: 50px 0 50px 0;
-	font-size: 48px;
+	font-size: 3em;
 }
 
 footer li{
@@ -375,18 +375,21 @@ footer ul {
 	/*==============================
 	aside
 ==============================*/
-
+aside ul{
+	padding: 0 0 0 60px;
+}
 
 aside li {
 	padding: 20px;
 }
 
 
+
 /*==============================
 	footer
 ==============================*/
 footer ul {
-	padding: 0 0 0 0;
+	padding: 0 0 0 75px;
 }
  }
  
@@ -435,14 +438,30 @@ footer ul {
 nav li {
 color: #000;
 float: none;
+text-align: center;
+padding: 10px;
 }	
 
 nav li:nth-child(1) {
-	margin: 20px 0 30px 85px;	
-}	
+float: none;
+}
+/*==============================
+	aside
+==============================*/
+aside li{
+	padding: 30px;
+}
 
-
-
+aside ul{
+	padding: 0 0 0 100px;
+}
+/*==============================
+	footer
+==============================*/
+footer li{
+	padding: 0 20px 0 20px;
+	width: 15%;
+}
  }
  
 /*end of desktop*/
