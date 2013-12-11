@@ -66,6 +66,7 @@ img {
 
 nav {
 	width: 100%;
+	height: 100px;
 	}
 	
 footer {
@@ -174,12 +175,12 @@ header h1 {
 
 form {
 	margin: 50px auto;
-	width: 33.333333%; /*320px/960=33.333333%*/
+	width: 320px; /*320px/960=33.333333%*/
 	color: grey;
 }
 textarea {
-  width: 33.333333%; /*320px/960=33.333333%*/
-  height: 41.666667%; /*400px/960=41.666667%*/
+  width: 320px; /*320px/960=33.333333%*/
+  height: 400px; /*400px/960=41.666667%*/
   padding: 10px;
   border-radius: 5px;
   border: 2px solid;
@@ -217,11 +218,9 @@ input[type="text"]:enabled {
 /*==============================
 	work article
 ==============================*/
- .gallery h1{
- 	clear:both;
- }
+ 
  .gallery ul{
-	 padding: 0 0 0 100px;
+	 padding: 0 0 0 200px;
  }
  
  .gallery li{
@@ -244,12 +243,10 @@ input[type="text"]:enabled {
 /*==============================
 	about article
 ==============================*/
-.about article{
-	background: red;
-}
+
 
 .about img{
-	width: 41.66667%;	
+	width: 30.66667%;	
 }
 /*==============================
 	aside
