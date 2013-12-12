@@ -277,6 +277,7 @@ input[type="text"]:enabled {
 	about article
 ==============================*/
 .about article{
+	height: 600px;
 	position: relative;
 }
 
@@ -284,12 +285,9 @@ input[type="text"]:enabled {
 	height: 400px;
 	width: 300px;
 	background: url('../img/me.jpg') no-repeat;	
-	-webkit-border-radius: 50px 50px 50px 50px;
-	-moz-border-radius: 50px 50px 50px 50px;
-	border-radius: 50px 50px 50px 50px;
-	position: absolute;
+	position: relative;
 	left: 600px;
-	top: 200px;
+	top: 30px;
 	-webkit-transition: background 2s;
 	-moz-transition: background 2s;
 	transition: background 2s;
@@ -301,9 +299,9 @@ input[type="text"]:enabled {
 }
  .about p{
 	 width: 400px;
-	 position: absolute;
-	 left: 575px;
-	 top: 650px;
+	 position: relative;
+	 left: 550px;
+	 top: 90px;
 	 
 	 	 
  }
@@ -311,8 +309,8 @@ input[type="text"]:enabled {
  .about h1{
 	 font-size: 3em;
 	 position: absolute;
-	 top: 580px;
-	 left: 575px;	 
+	 top: 560px;
+	 left: 580px;	 
  }
  
  .about:after{
@@ -379,8 +377,6 @@ aside:after {
 }
 
 
- 
- 
 /*==============================
 	footer
 ==============================*/
@@ -485,25 +481,20 @@ footer li{
 	about article
 ==============================*/
 .about div{
-	left: 350px;
-	top: 200px;	  	
+	position: relative;
+	left: 300px;
+	top: 30px;	  	
 }
 
  .about p{
-	 width: 400px;
-	 position: absolute;
-	 left: 315px;
-	 top: 650px;
-	 
-	 	 
+	 left: 250px;
+ 	 
  }
  
  .about h1{
-	 font-size: 3em;
-	 position: absolute;
-	 top: 580px;
-	 left: 315px;	 
+	 left: 270px;
  }
+ 
  }
  
 /*end of standard desktop*/
@@ -562,25 +553,17 @@ a:active {
 	about article
 ==============================*/
 .about div{
-	left: 240px;
-	top: 375px;	  	
+	left: 240px;  	
 }
-
  .about p{
-	 width: 400px;
-	 position: absolute;
 	 left: 190px;
-	 top: 870px;
-	 
-	 	 
+			 	 
  }
  
  .about h1{
-	 font-size: 3em;
-	 position: absolute;
-	 top: 795px;
 	 left: 190px;	 
  }
+ 
 /*==============================
 	work article
 ==============================*/
